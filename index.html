@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoàng Nam | Game & Tools Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #0f172a; color: white; }
+        .glass-card {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+        .glass-card:hover {
+            border-color: #06b6d4;
+            box-shadow: 0 0 20px rgba(6, 182, 212, 0.3);
+            transform: translateY(-5px);
+        }
+        .neon-text { text-shadow: 0 0 10px #06b6d4; }
+    </style>
+</head>
+<body>
+
+    <nav class="p-6 flex justify-between items-center border-b border-gray-800">
+        <h1 class="text-2xl font-bold tracking-widest neon-text">NAM <span class="text-cyan-400">ADMIN</span></h1>
+        <div class="space-x-6">
+            <a href="#" class="hover:text-cyan-400">Trang chủ</a>
+            <a href="#" class="hover:text-cyan-400">Dịch vụ</a>
+            <a href="#" class="hover:text-cyan-400">Liên hệ</a>
+        </div>
+    </nav>
+
+    <header class="py-20 text-center">
+        <h2 class="text-5xl font-extrabold mb-4">Hệ Thống <span class="text-cyan-400">Gaming Tools</span></h2>
+        <p class="text-gray-400 max-w-xl mx-auto">Cung cấp các công cụ hỗ trợ game, phần mềm bản quyền và giải pháp tối ưu hóa máy tính hàng đầu Việt Nam.</p>
+    </header>
+
+    <section class="container mx-auto px-6 pb-20">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            
+            <div class="glass-card p-6 rounded-2xl">
+                <div class="flex justify-between mb-4">
+                    <span class="bg-green-500/20 text-green-400 text-xs px-2 py-1 rounded">Hoạt động</span>
+                    <span class="text-gray-500 text-sm">v2.1.0</span>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Tool Auto Game FPS</h3>
+                <p class="text-gray-400 text-sm mb-4">Tự động hóa các thao tác lặp lại, tối ưu hóa ping khi chơi game.</p>
+                <button class="w-full bg-cyan-500 hover:bg-cyan-600 py-2 rounded-lg font-bold transition">Tải về ngay</button>
+            </div>
+
+            <div class="glass-card p-6 rounded-2xl">
+                <div class="flex justify-between mb-4">
+                    <span class="bg-green-500/20 text-green-400 text-xs px-2 py-1 rounded">Hoạt động</span>
+                    <span class="text-gray-500 text-sm">Free</span>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Mod Skin Liên Quân</h3>
+                <p class="text-gray-400 text-sm mb-4">Trải nghiệm mọi trang phục cực đẹp hoàn toàn miễn phí, an toàn.</p>
+                <button class="w-full bg-cyan-500 hover:bg-cyan-600 py-2 rounded-lg font-bold transition">Tải về ngay</button>
+            </div>
+
+            <div class="glass-card p-6 rounded-2xl">
+                <div class="flex justify-between mb-4">
+                    <span class="bg-yellow-500/20 text-yellow-400 text-xs px-2 py-1 rounded">Đang cập nhật</span>
+                    <span class="text-gray-500 text-sm">Premium</span>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Tool Check Account</h3>
+                <p class="text-gray-400 text-sm mb-4">Công cụ quét tài khoản, kiểm tra thông tin hàng loạt cực nhanh.</p>
+                <button class="w-full bg-gray-700 cursor-not-allowed py-2 rounded-lg font-bold" disabled>Đang bảo trì</button>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="text-center py-10 border-t border-gray-800 text-gray-500 text-sm">
+        &copy; 2024 Admin Lê Hoàng Nam. Bản quyền thuộc về HoangNamHub.
+    </footer>
+
+</body>
+</html>
